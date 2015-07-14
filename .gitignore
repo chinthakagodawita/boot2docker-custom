@@ -4,3 +4,6 @@
 # IDE files.
 *.sublime*
 *.idea
+
+# Node.
+node_modules/
