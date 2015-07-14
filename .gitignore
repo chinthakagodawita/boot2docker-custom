@@ -1,0 +1,6 @@
+# Ignore built ISO.
+*.iso
+
+# IDE files.
+*.sublime*
+*.idea
