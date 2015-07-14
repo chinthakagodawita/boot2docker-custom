@@ -1,0 +1,9 @@
+wait4eth1() {
+        CNT=0
+        until ip a show eth1 | grep -q UP
+        do
+                [ $((CNT++)) -gt 60 ] && break || sleep 1
+        done
+        sleep 1
+}
+wait4eth1
